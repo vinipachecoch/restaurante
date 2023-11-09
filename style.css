@@ -1,3 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 'overlock', cursive;
+}
+
 body{
-    background-color: aquamarine;
+    background-image:url("https://cdn.pixabay.com/photo/2015/06/30/18/36/st-826688_1280.jpg") ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    background-color: rgb(13, 14, 13);
+}
+
+.header {
+    background-color: rgba(28, 28, 28, 0.3);
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: 3rem auto 0 auto;
+    padding: 2rem;
+    width: 95%;
+    font-size: 1.125rem;
+display: flex;
+justify-content: space-between;
+
+}
+
+.header-brand-link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.875rem;
+    font-weight: 900;
+}
+
+.header-menu{
+
+    align-self: center;
+}
+
+.header-menu-link{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0.25rem;
+}
+
+.header-menu-link:hover{
+    color: darksalmon;
+    border-bottom: 2px solid darksalmon;
+    background-color: rgba(28, 28, 28, 0.65);
 }
