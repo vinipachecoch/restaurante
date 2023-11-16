@@ -48,3 +48,53 @@ justify-content: space-between;
     border-bottom: 2px solid darksalmon;
     background-color: rgba(28, 28, 28, 0.65);
 }
+
+.main {
+    min-height: calc(100vh - 8.625rem);
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+
+.main-box{
+    border-right: 2px solid whitesmoke;
+    background-color: rgba(186, 109, 109, 0.5);
+    padding: 0 1rem;
+    width: 50%;
+    align-self: center;
+
+}
+
+.main-titulo{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: lightsalmon;
+}
+
+.index-main-frase{
+    color:whitesmoke;
+    font-size: 1.5rem;
+    font-style: italic;
+
+}
+.link-cardapio {
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: darksalmon;
+        text-decoration: none;
+        padding: 0.75rem;
+        border-radius: 0.625rem;
+        position:fixed;
+        left: 40%;
+        right: 40%;
+        bottom: 2rem;
+        text-align: center;
+}
+
+.link-cardapio:hover {
+    background-color: salmon;
+    color: whitesmoke;
+}
+
