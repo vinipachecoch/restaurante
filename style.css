@@ -76,6 +76,44 @@ justify-content: space-between;
     color: lightsalmon;
 }
 
+.main-content {
+    background-color: rgba(245, 245, 245, 0.85);
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+}
+
+.content-img {
+    background-position: center;
+    background-size:cover;
+    width: 40%;
+}
+
+.content-img-about {
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/12/16/59/noodle-1735134_1280.jpg);
+}
+
+.content-txt {
+    width: 60%;
+    padding: 00.625rem;
+}
+
+.content-title {
+    color: orangered;
+    font-weight: 900;
+}
+
+.content-subtitle {
+    color: orangered;
+    font-size: 1.25rem;
+}
+
+.content-paragraph {
+    color: #101010;
+}
+
+
+
 .index-main-frase{
     color:whitesmoke;
     font-size: 1.5rem;
